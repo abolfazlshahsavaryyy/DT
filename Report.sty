@@ -23,3 +23,11 @@ After performing grid search on the model, I found the best model with an accura
 The reason the accuracy is so high is that my dataset is used for detecting the type of attack or normal request on a website.
 We have a lot of parameters, and these parameters divide normal requests from attack requests.
 Because of this, attack requests always have some identifying signs that make them easy to detect.
+
+but I head to another problem witch entropy what to lower that gini the reson was that this model has some feature
+and those feature are near 90% same value and it devide the very well this has two reson to increase the IG
+first of all the lower value seperate the tree and the other part miss extra part so the IG was to higjt 
+
+the best way to solve this problem was in my oppinian drop dose values because the nois was to hight in this 
+features after deleteing this bad feature that not split very well the model with entropy increate the accuracy 
+
